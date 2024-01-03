@@ -28,6 +28,6 @@ jobs:
         run: yarn install
 
       - name: Publish
-        uses: cloudflare/wrangler-action@3.0.0
+        uses: wrangler@3.22.2
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
