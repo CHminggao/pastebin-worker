@@ -5,10 +5,10 @@ main = "src/index.ts"
 workers_dev = false
 
 # 如果没使用自定义域名，将BASE_URL改为 worker 的默认路由
-vars = { ENVIRONMENT = "production", BASE_URL = "https://gmonster.win" }
+vars = { ENVIRONMENT = "production", BASE_URL = "https://p.gmonster.win" }
 
 # 如果不使用自定义域名，将下面的代码注释掉
-route = { pattern = "gmonster.win", custom_domain = true }
+route = { pattern = "p.gmonster.win", custom_domain = true }
 
 kv_namespaces = [
   { binding = "__pastebin-worker-workers_sites_assets", id = "02f2dfcf059440c1af4aa257921b4dcf" },
