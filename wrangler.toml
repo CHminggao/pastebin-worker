@@ -11,7 +11,7 @@ vars = { ENVIRONMENT = "production", BASE_URL = "https://p.gmonster.win" }
 route = { pattern = "p.gmonster.win", custom_domain = true }
 
 kv_namespaces = [
-  { binding = "__pastebin-worker-workers_sites_assets", id = "a394dfeb2b084c4a82cd9d88e3168123" },
+  { binding = "PB", id = "b0bfac4b63e442fbad8ce72a65b269f3" },
 ]
 
 [site]
